@@ -1,0 +1,32 @@
+@import "src/assets/style/style";
+@import "src/assets/style/variables";
+
+header{
+  background-color: $main-color;
+  height: 80px;
+
+  .G-container{
+
+    .P-header-logo{
+
+    }
+
+    .P-header-menu{
+      ul{
+        li{
+          color: $white;
+          margin: 0 20px;
+          cursor: pointer;
+          &:hover{
+            color: $second-color;
+          }
+        }
+      }
+    }
+
+    >a{
+      color: $white;
+    }
+  }
+}
+
